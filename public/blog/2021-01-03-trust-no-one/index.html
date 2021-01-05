@@ -10,11 +10,11 @@
   <meta property="og:title" content="Trust No One">
   <meta property="og:description" content="Sentiment analysis of X-Files scripts using tidytext.">
   <meta property="description" content="Sentiment analysis of X-Files scripts using tidytext.">
-  <meta property="og:url" content="https://www.kpress.dev/blog/2021-01-03-trust-no-one/">
+  <meta property="og:url" content="/blog/2021-01-03-trust-no-one/">
   <meta property="og:type" content="article">
   
     
-      <meta property="og:image" content="https://www.kpress.dev/img/2021/trust_no_2.png">
+      <meta property="og:image" content="/img/2021/trust_no_2.png">
       <meta property="og:image:alt" content="X Files Chart 3">
     
   
@@ -121,19 +121,19 @@
 
   
     
-    <a href="//twitter.com/share?text=Trust%20No%20One&amp;url=https%3a%2f%2fwww.kpress.dev%2fblog%2f2021-01-03-trust-no-one%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+    <a href="//twitter.com/share?text=Trust%20No%20One&amp;url=%2fblog%2f2021-01-03-trust-no-one%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
         <p>Twitter</p>
       </a>
   
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.kpress.dev%2fblog%2f2021-01-03-trust-no-one%2f&amp;title=Trust%20No%20One" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=%2fblog%2f2021-01-03-trust-no-one%2f&amp;title=Trust%20No%20One" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
 
   
-        <a href="mailto:?subject=Check%20out%20this%20post%20by Katie%20Press&amp;body=https%3a%2f%2fwww.kpress.dev%2fblog%2f2021-01-03-trust-no-one%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+        <a href="mailto:?subject=Check%20out%20this%20post%20by Katie%20Press&amp;body=%2fblog%2f2021-01-03-trust-no-one%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
           <p>Email</p>
         </a>
   
@@ -145,7 +145,7 @@
 
     <div id="wrapper">
       <section id="site-intro" >
-  <a href="/"><img src="https://www.kpress.dev/img/main/tuxedo.jpg" class="circle" width="100" alt="Hugo Future Imperfect Slim" /></a>
+  <a href="/"><img src="/img/main/tuxedo.jpg" class="circle" width="100" alt="Hugo Future Imperfect Slim" /></a>
   <header>
     <h1>Katie Press</h1>
   </header>
@@ -225,11 +225,11 @@
  
     <div class="content">
       <a href="/blog/2021-01-03-trust-no-one/" class="image">
-    <img class="stretchH" src="https://www.kpress.dev/img/2021/trust_no_2.png" alt="X Files Chart 3">
+    <img class="stretchH" src="/img/2021/trust_no_2.png" alt="X Files Chart 3">
   </a>
       
-<link href="https://www.kpress.dev/blog/2021-01-03-trust-no-one/index.en_files/pagedtable/css/pagedtable.css" rel="stylesheet" />
-<script src="https://www.kpress.dev/blog/2021-01-03-trust-no-one/index.en_files/pagedtable/js/pagedtable.js"></script>
+<link href="/blog/2021-01-03-trust-no-one/index.en_files/pagedtable/css/pagedtable.css" rel="stylesheet" />
+<script src="/blog/2021-01-03-trust-no-one/index.en_files/pagedtable/js/pagedtable.js"></script>
 
 
 <p>In the last two episodes, I created an <a href="https://kpress.dev/blog/2021-01-03-the-truth-is-out-there/">X-Files episode dataset</a> and <a href="https://kpress.dev/blog/2021-01-03-the-truth-is-out-there-part-ii/">web-scraped episode scripts</a>. Now it’s time for some real text analysis. Most of this is going to be based on Julia Silge’s work on tidy text mining, which can be found in her <a href="https://www.tidytextmining.com/">free eBook</a>. And of course, all of this is based on the principles of tidy data - see <a href="https://vita.had.co.nz/papers/tidy-data.pdf">this paper</a> by tidyverse author Hadley Wickham for more details.</p>
@@ -321,7 +321,7 @@ main.characters &lt;- c(&quot;Scully&quot;, &quot;Mulder&quot;, &quot;Cigarette 
   theme_minimal()+
   my_theme3 +
   ggtitle(&quot;Sentiment by Character&quot;)</code></pre>
-<p><img src="https://www.kpress.dev/blog/2021-01-03-trust-no-one/index.en_files/figure-html/unnamed-chunk-11-1.png" width="720" /></p>
+<p><img src="/blog/2021-01-03-trust-no-one/index.en_files/figure-html/unnamed-chunk-11-1.png" width="720" /></p>
 <p>I’m also interested in looking at sentiment by season and/or episode, and I think I’ll use the numeric sentiments for this. The afinn dataset categorizes words from -5 (most negative sentiment) to 5 (most positive sentiment). I’m going to create a dataset of all words from ep_words that match to afinn. I’m basically going to chunk the episodes within each season and produce the overall sentiment for each chunk so that I can chart it. First divide every episode into four equal portions, this can sort of represent 15 minute chunks of each episode.</p>
 <pre class="r"><code>season_sent &lt;- ep_words %&gt;% 
   inner_join(afinn) %&gt;% 
@@ -343,7 +343,7 @@ main.characters &lt;- c(&quot;Scully&quot;, &quot;Mulder&quot;, &quot;Cigarette 
         axis.ticks.y = element_blank(),
         axis.title.x = element_blank())+
   ggtitle(&quot;Sentiment Change Over Time&quot;)</code></pre>
-<p><img src="https://www.kpress.dev/blog/2021-01-03-trust-no-one/index.en_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p><img src="/blog/2021-01-03-trust-no-one/index.en_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
 <p>I think this would look pretty cool in a single chart too so let’s try that next.</p>
 <pre class="r"><code>final_sent &lt;- ep_words %&gt;% 
   inner_join(afinn) %&gt;% 
@@ -360,7 +360,7 @@ main.characters &lt;- c(&quot;Scully&quot;, &quot;Mulder&quot;, &quot;Cigarette 
         axis.ticks.y = element_blank(),
         axis.title.x = element_blank())+
   ggtitle(&quot;Sentiment Change Over Time&quot;)</code></pre>
-<p><img src="https://www.kpress.dev/blog/2021-01-03-trust-no-one/index.en_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p><img src="/blog/2021-01-03-trust-no-one/index.en_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
 <p>That’s all for now…next time might be topic modeling.</p>
 </div>
 
@@ -439,7 +439,7 @@ main.characters &lt;- c(&quot;Scully&quot;, &quot;Mulder&quot;, &quot;Cigarette 
       
       <article class="mini-post">
           <a href="/blog/2021-01-03-trust-no-one/" class="image">
-    <img class="stretchH" src="https://www.kpress.dev/img/2021/trust_no_2.png" alt="X Files Chart 3">
+    <img class="stretchH" src="/img/2021/trust_no_2.png" alt="X Files Chart 3">
   </a>
         <header>
           <h2><a href="/blog/2021-01-03-trust-no-one/">Trust No One</a></h2>
@@ -449,7 +449,7 @@ main.characters &lt;- c(&quot;Scully&quot;, &quot;Mulder&quot;, &quot;Cigarette 
       
       <article class="mini-post">
           <a href="/blog/2021-01-03-the-truth-is-out-there-part-ii/" class="image">
-    <img class="stretchH" src="https://www.kpress.dev/img/2021/thetruth_part2_plot2.png" alt="X Files Chart 2">
+    <img class="stretchH" src="/img/2021/thetruth_part2_plot2.png" alt="X Files Chart 2">
   </a>
         <header>
           <h2><a href="/blog/2021-01-03-the-truth-is-out-there-part-ii/">I Want To Believe</a></h2>
@@ -459,7 +459,7 @@ main.characters &lt;- c(&quot;Scully&quot;, &quot;Mulder&quot;, &quot;Cigarette 
       
       <article class="mini-post">
           <a href="/blog/2021-01-03-the-truth-is-out-there/" class="image">
-    <img class="stretchH" src="https://www.kpress.dev/img/2021/thetruth1_plot1.png" alt="X Files Chart 1">
+    <img class="stretchH" src="/img/2021/thetruth1_plot1.png" alt="X Files Chart 1">
   </a>
         <header>
           <h2><a href="/blog/2021-01-03-the-truth-is-out-there/">The Truth Is Out There</a></h2>

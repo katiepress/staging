@@ -3,266 +3,266 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.kpress.dev/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2021-01-03T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/categories/</loc>
-    <lastmod>2021-01-03T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.kpress.dev/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://www.kpress.dev/pl/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.kpress.dev/pt/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.kpress.dev/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.kpress.dev/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.kpress.dev/zh-cn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://www.kpress.dev/zh-tw/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://www.kpress.dev/ja/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://www.kpress.dev/nl/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.kpress.dev/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.kpress.dev/tags/charts/</loc>
-    <lastmod>2021-01-03T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.kpress.dev/</loc>
+    <loc>/categories/</loc>
     <lastmod>2021-01-03T21:13:14-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.kpress.dev/fr/"
+                href="/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://www.kpress.dev/pl/"
+                href="/pl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://www.kpress.dev/pt/"
+                href="/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.kpress.dev/de/"
+                href="/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.kpress.dev/es/"
+                href="/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.kpress.dev/zh-cn/"
+                href="/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://www.kpress.dev/zh-tw/"
+                href="/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kpress.dev/ja/"
+                href="/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://www.kpress.dev/nl/"
+                href="/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kpress.dev/"
+                href="/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/categories/r/</loc>
+    <loc>/tags/charts/</loc>
     <lastmod>2021-01-03T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/tags/</loc>
+    <loc>/</loc>
     <lastmod>2021-01-03T21:13:14-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.kpress.dev/fr/tags/"
+                href="/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://www.kpress.dev/pl/tags/"
+                href="/pl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://www.kpress.dev/pt/tags/"
+                href="/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.kpress.dev/de/tags/"
+                href="/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.kpress.dev/es/tags/"
+                href="/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.kpress.dev/zh-cn/tags/"
+                href="/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://www.kpress.dev/zh-tw/tags/"
+                href="/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kpress.dev/ja/tags/"
+                href="/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://www.kpress.dev/nl/tags/"
+                href="/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kpress.dev/tags/"
+                href="/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/tags/text-analysis/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2021-01-03T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/blog/2021-01-03-trust-no-one/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-03T21:13:14-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="/nl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/text-analysis/</loc>
     <lastmod>2021-01-03T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/categories/x-files/</loc>
+    <loc>/blog/2021-01-03-trust-no-one/</loc>
     <lastmod>2021-01-03T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/tags/datasets/</loc>
+    <loc>/categories/x-files/</loc>
+    <lastmod>2021-01-03T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/datasets/</loc>
     <lastmod>2020-11-01T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/blog/2021-01-03-the-truth-is-out-there-part-ii/</loc>
+    <loc>/blog/2021-01-03-the-truth-is-out-there-part-ii/</loc>
     <lastmod>2020-11-01T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/tags/web-scraping/</loc>
+    <loc>/tags/web-scraping/</loc>
     <lastmod>2020-11-01T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/blog/2021-01-03-the-truth-is-out-there/</loc>
+    <loc>/blog/2021-01-03-the-truth-is-out-there/</loc>
     <lastmod>2020-10-04T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://www.kpress.dev/pl/about/"
+                href="/pl/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.kpress.dev/fr/about/"
+                href="/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://www.kpress.dev/pt/about/"
+                href="/pt/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kpress.dev/about/"
+                href="/about/"
                 />
   </url>
   
   <url>
-    <loc>https://www.kpress.dev/contact/</loc>
+    <loc>/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.kpress.dev/de/contact/"
+                href="/de/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.kpress.dev/es/contact/"
+                href="/es/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.kpress.dev/zh-cn/contact/"
+                href="/zh-cn/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kpress.dev/contact/"
+                href="/contact/"
                 />
   </url>
   

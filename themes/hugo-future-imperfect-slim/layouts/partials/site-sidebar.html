@@ -1,0 +1,73 @@
+<section id="site-sidebar">
+  {{ if gt .Site.Params.sidebar.postAmount 0 }}
+    <section id="recent-posts">
+      <header>
+        <h1>{{ i18n "recent_posts" }}</h1>
+      </header>
+      {{ range first (.Site.Params.sidebar.postAmount | default 5) (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+      <article class="mini-post">
+          {{ .Render "featured" }}
+        <header>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <time class="published" datetime="{{ .Date }}">{{ .Render "date" }}</time>
+        </header>
+      </article>
+      {{ end }}
+      {{ if ge (len (where site.RegularPages "Type" "in" site.Params.mainSections)) (.Site.Params.sidebar.postAmount | default 5) }}
+        <footer>
+          <a href="{{ ( .Site.Params.viewMorePostsLink | default "blog") | relLangURL }}" class="button">{{ i18n "see_more" }}</a>
+        </footer>
+      {{ end }}
+    </section>
+  {{ end }}
+
+  {{ if .Site.Params.sidebar.categories }}
+    {{ if ne ($.Scratch.Get "showCategories") false }}
+
+      <section id="categories">
+        <header>
+          <h1><a href="{{ "categories" | relLangURL }}">{{ i18n "categories" (len .Site.Taxonomies.categories) }}</a></h1>
+        </header>
+        <ul>
+          {{ $.Scratch.Set "categories" (cond .Site.Params.sidebar.categoriesByCount .Site.Taxonomies.categories.ByCount .Site.Taxonomies.categories.Alphabetical) }}
+          {{ range $key, $value := $.Scratch.Get "categories" }}
+          <li>
+              <a href="{{ printf "%s/%s" "categories" $value.Name | urlize | relLangURL }}/">{{ $value.Name }}<span class="count">{{ $value.Count }}</span></a>
+          {{ end }}
+          </li>
+        </ul>
+      </section>
+    {{ end }}
+  {{ end }}
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:##f4f4f4; clear:left; font-family: "Raleway", Helvetica, sans-serif;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://dev.us2.list-manage.com/subscribe/post?u=127f1a0cd94c887d4539ae400&amp;id=041b3db1da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_127f1a0cd94c887d4539ae400_041b3db1da" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+  {{ if .Site.Params.sidebar.about }}
+    <section id="mini-bio">
+      <header>
+        <h1>{{ i18n "about" }}</h1>
+      </header>
+      <p>{{ .Site.Params.sidebar.about | safeHTML }}</p>
+      <footer>
+        <a href="{{ "about" | relLangURL }}" class="button">{{ i18n "learn_more" }}</a>
+      </footer>
+    </section>
+  {{ end }}
+</section>
